@@ -8,7 +8,7 @@ This project uses the PEXELS API (https://www.pexels.com/api/documentation) to f
 
 1. Clone the project
 ```sh
-git clone <url of github repo>
+git clone git@github.com:rahulsoibam/react-infinite-scroll-demo-from-scratch.git
 ```
 
 2. Change the current directory
