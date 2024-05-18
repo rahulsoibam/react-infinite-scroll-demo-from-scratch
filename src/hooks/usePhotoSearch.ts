@@ -45,7 +45,6 @@ export default function usePhotoSearch(query: string, pageNumber: number) {
             cancelToken: new axios.CancelToken((c) => (cancel = c)),
         })
             .then((res: AxiosResponse<PexelResponse>) => {
-                console.log(res.data);
                 setPhotos((prevPhotos) => [
                     ...new Set([...prevPhotos, ...res.data.photos]),
                 ]);
